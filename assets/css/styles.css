@@ -370,11 +370,10 @@ button {
   column-gap: 30px;
 }
 .team-item__theme {
-  display: flex;
   height: 290px;
   max-width: 100%;
   object-fit: cover;
-  overflow: hidden;
+  display: block;
   transition: 0.5s;
 }
 .team-item__img {
