@@ -79,6 +79,33 @@
   .navbar__link:hover {
     color: #ffff37;
   }
+  /* hero */
+  .hero {
+    flex-direction: column-reverse;
+    row-gap: 50px;
+  }
+  .hero__content {
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+  .hero__row {
+    justify-content: center;
+  }
+  /* khoi service */
+  .service__row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .service-item {
+    width: 90%;
+  }
+  .service__list {
+    text-align: center;
+  }
+  .service-item {
+    text-align: start;
+  }
 }
 /* tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -87,8 +114,7 @@
 @media (max-width: 767.98px) {
 }
 /* tam an */
-.hero,
-.footer,
-main {
+
+.footer {
   display: none;
 }
