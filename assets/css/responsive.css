@@ -172,7 +172,92 @@
   .footer__top {
     grid-template-columns: 0.5fr 0.5fr 1fr;
   }
+  .show_on_mobile {
+    display: none;
+  }
 }
 /* mobile */
 @media (max-width: 767.98px) {
+  .header__action {
+    display: none;
+  }
+  .menu-header__icon {
+    top: 16px;
+  }
+  .menu-drawer {
+    padding: 20px;
+    inset: 0 20% 0 0;
+  }
+  .separate {
+    border-top: 1.5px solid #8c8b8b;
+  }
+  /* hero */
+  .hero__images--small {
+    display: none;
+  }
+  .hero__images--large {
+    width: 100%;
+    height: auto;
+  }
+  .hero__heading {
+    font-size: 3rem;
+  }
+  .hero__row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .service {
+    padding: 70px 0;
+  }
+  .service__desc {
+    width: 93%;
+  }
+  .service__img {
+    width: 100%;
+    height: auto;
+  }
+  .work__desc {
+    width: 93%;
+    text-align: center;
+  }
+  .work-item {
+    padding: 22px;
+  }
+  .about {
+    margin-top: 20px;
+    padding: 40px 0 206px;
+  }
+  .section-heading {
+    font-size: 4rem;
+  }
+  .team__list {
+    grid-template-columns: 1fr;
+  }
+  .install__inner {
+    margin: 40px 0;
+    padding: 0 8px;
+  }
+  .install__content {
+    min-width: 250px;
+  }
+  .install__desc {
+    font-size: 1.3rem;
+  }
+  .blog__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .blog__content {
+    width: 100%;
+  }
+  .appointment__inner {
+    padding: 30px 5px;
+  }
+  .footer__top {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .footer__copyright {
+    margin-top: 20px;
+  }
 }
